@@ -1,1 +1,0 @@
-WriteStreamToARFFFile -s (ConceptDriftStream -s (generators.RandomTreeGenerator -c 15 -o 25000 -u 0 -v 2 -d 8) -d (generators.RandomTreeGenerator -r 2 -c 15 -o 25000 -u 0 -v 2 -d 8) -a 0.0099 -p 2000 -w 100) -f (F:\PhD\#multi-label classification\Coding\multi-label-code\moa experimentaion\15-synthetic-dataset-d25000.arff) -m 19000
